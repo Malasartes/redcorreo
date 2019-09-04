@@ -1,0 +1,21 @@
+{
+  "no_special_characters":false,
+  "group_by_address_domain":true,
+  "include_email_in_attributes":false,
+  "default_group_name":"DEFAULT",
+  "address_delimiter": ";",
+  "split_address_by_text": "CN=RECIPIENTS/CN=",
+  "name_delimiter": ";",
+  "output_delimiter": ",",
+  "csv_keys": {
+    "from_email": "From: (Address)",
+    "to_email": "To: (Address)",
+    "cc_email": "CC: (Address)",
+    "bcc_email": "BCC: (Address)",
+    "from_name":"From: (Name)",
+    "to_name":"To: (Name)",
+    "cc_name":"CC: (Name)",
+    "bcc_name":"BCC: (Name)"
+  },
+  "address_string_to_ignore":"/O=MMS/OU"
+}
